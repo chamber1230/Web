@@ -3,7 +3,7 @@
 if (session_status() == PHP_SESSION_NONE) {
     session_start();
 }
-
+//prod db
 // Database configuration
 $host = 'localhost';       // Database host (default: localhost)
 $dbname = 'u143688490_rice_store';       // Name of your database
