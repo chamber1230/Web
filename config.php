@@ -6,9 +6,9 @@ if (session_status() == PHP_SESSION_NONE) {
 
 // Database configuration
 $host = 'localhost';       // Database host (default: localhost)
-$dbname = 'rice_db';       // Name of your database
-$username = 'root';        // Database username (default: root)
-$password = '';            // Database password (leave blank if none)
+$dbname = 'u143688490_rice_store';       // Name of your database
+$username = 'u143688490_chambe';        // Database username (default: root)
+$password = 'Fujiwara000!';            // Database password (leave blank if none)
 
 // Database connection
 try {
