@@ -44,43 +44,61 @@ if (isset($_POST['add_to_cart'])) {
     <h2>Featured Products</h2>
     <div class="product-grid">
         <!-- Featured Product 1 -->
-        <form method="post" action="">
-            <div class="product-card">
-                <img src="images/basmatirice.jpg" alt="Basmati Rice">
-                <h3>Basmati Rice</h3>
-                <p> 50.00 per kg</p>
-                <input type="hidden" name="product_id" value="1">
-                <input type="hidden" name="product_name" value="Basmati Rice">
-                <input type="hidden" name="product_price" value="50.00">
-                
-            </div>
-        </form>
+        <div class="product-card">
+            <img src="images/basmatirice.jpg" alt="Basmati Rice">
+            <h3>Basmati Rice</h3>
+            <p>₱50.00 per kg</p>
+        </div>
 
         <!-- Featured Product 2 -->
-        <form method="post" action="">
-            <div class="product-card">
-                <img src="images/jasminerice.png" alt="Jasmine Rice">
-                <h3>Jasmine Rice</h3>
-                <p>50.00 per kg</p>
-                <input type="hidden" name="product_id" value="2">
-                <input type="hidden" name="product_name" value="Jasmine Rice">
-                <input type="hidden" name="product_price" value="50.00">
-            
-            </div>
-        </form>
+        <div class="product-card">
+            <img src="images/jasminerice.png" alt="Jasmine Rice">
+            <h3>Jasmine Rice</h3>
+            <p>₱50.00 per kg</p>
+        </div>
 
         <!-- Featured Product 3 -->
-        <form method="post" action="">
-            <div class="product-card">
-                <img src="images/arboriorice.jpg" alt="Arborio Rice">
-                <h3>Arborio Rice</h3>
-                <p>50.00 kg</p>
-                <input type="hidden" name="product_id" value="3">
-                <input type="hidden" name="product_name" value="Arborio Rice">
-                <input type="hidden" name="product_price" value="50.00">
-                
-            </div>
-        </form>
+        <div class="product-card">
+            <img src="images/arboriorice.jpg" alt="Arborio Rice">
+            <h3>Arborio Rice</h3>
+            <p>₱50.00 per kg</p>
+        </div>
+
+        <!-- New Products -->
+        <!-- Sushi Rice -->
+        <div class="product-card">
+            <img src="images/sushirice.jpg" alt="Sushi Rice">
+            <h3>Sushi Rice</h3>
+            <p>₱50.00 per kg</p>
+        </div>
+
+        <!-- Sinandomeng Rice -->
+        <div class="product-card">
+            <img src="images/sinandomengrice.jpg" alt="Sinandomeng Rice">
+            <h3>Sinandomeng Rice</h3>
+            <p>₱55.00 per kg</p>
+        </div>
+
+        <!-- Brown Rice -->
+        <div class="product-card">
+            <img src="images/brownrice.jpg" alt="Brown Rice">
+            <h3>Brown Rice</h3>
+            <p>₱50.00 per kg</p>
+        </div>
+
+        <!-- Wild Rice -->
+        <div class="product-card">
+            <img src="images/wildrice.jpg" alt="Wild Rice">
+            <h3>Wild Rice</h3>
+            <p>₱25.00 per kg</p>
+        </div>
+
+        <!-- White Rice -->
+        <div class="product-card">
+            <img src="images/whiterice.jpg" alt="White Rice">
+            <h3>White Rice</h3>
+            <p>₱50.00 per kg</p>
+        </div>
     </div>
 </div>
 
