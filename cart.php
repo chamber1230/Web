@@ -39,9 +39,9 @@ include('header.php');
                 ?>
                 <tr>
                     <td><?php echo $item['name']; ?></td>
-                    <td>$<?php echo number_format($item['price'], 2); ?></td>
+                    <td>₱<?php echo number_format($item['price'], 2); ?></td>
                     <td><?php echo $item['quantity']; ?></td>
-                    <td>$<?php echo number_format($subtotal, 2); ?></td>
+                    <td>₱<?php echo number_format($subtotal, 2); ?></td>
                     <td>
                         <form method="post" action="">
                             <input type="hidden" name="product_id" value="<?php echo $id; ?>">
@@ -52,7 +52,7 @@ include('header.php');
                 <?php endforeach; ?>
             </tbody>
         </table>
-        <p>Total: $<?php echo number_format($total, 2); ?></p>
+        <p>Total: ₱<?php echo number_format($total, 2); ?></p>
         <form method="post" action="">
             <button type="submit" name="clear_cart">Clear Cart</button>
         </form>

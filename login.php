@@ -60,4 +60,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <p>Don't have an account? <a href="register.php">Register here</a>.</p>
 </div>
 
-<?php include('footer.php'); ?>
+
