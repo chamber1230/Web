@@ -1,0 +1,8 @@
+{
+    "name": "chamber/web",
+    "description": "project in web deb 3A",
+    "type": "project",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "require": {}
+}
