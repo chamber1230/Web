@@ -57,9 +57,10 @@ $result = $conn->query($sql);
     <h2>Our Products</h2>
     <div class="product-grid">
         <?php if ($result->num_rows > 0): ?>
+            
             <?php while ($row = $result->fetch_assoc()): ?>
                 <div class="product-card">
-                    <img src="images/<?php echo $row['Pimage']; ?>" alt="<?php echo $row['Pname']; ?>" class="product-image">
+                    <img src="./images/<?php echo $row['Pimage']; ?>" alt="<?php echo $row['Pname']; ?>" class="product-image">
                     <h3><?php echo $row['Pname']; ?></h3>
                     <p>Type: <?php echo $row['Ptype']; ?></p>
                     <p>Price: ₱<?php echo $row['Pprice']; ?></p>
