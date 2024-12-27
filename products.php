@@ -2,7 +2,7 @@
 session_start();
 
 // Database connection
-$conn = new mysqli("localhost", "root", "", "rice_db");
+$conn = new mysqli("localhost", "u143688490_chambe", "Fujiwara000!", "u143688490_rice_store");
 
 // Check connection
 if ($conn->connect_error) {
